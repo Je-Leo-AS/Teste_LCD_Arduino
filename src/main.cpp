@@ -1,5 +1,5 @@
 #include <Arduino.h>
-#include "LiquidCrystal.h" 
+#include "LiquidCrystal.h"
 
 LiquidCrystal lcd(2, 3, 4, 5, 6, 7);
 
@@ -14,7 +14,7 @@ void loop()
   // put your main code here, to run repeatedly:
   lcd.setCursor(3, 0);
   lcd.print("TESTE LCD");
-  lcd.setCursor(3, 1);
+  lcd.setCursor(5, 1);
   lcd.print("Teste");
   delay(3000);
 
